@@ -1,0 +1,10 @@
+site_name: InTensorfiers' Documentation
+repo_url: https://github.com/InTensorfiers/intensorfiers.github.io
+repo_name: InTensorfiers/intensorfiers.github.io
+theme:
+  name: material
+  palette:
+    primary: deep orange
+    accent: yellow
+  icon:
+    repo: fontawesome/brands/github
