@@ -33,7 +33,7 @@ To get started with setting up Deep Learning server environments using Ansible a
 2. Install the necessary dependencies:
 
    ```shell
-   pip install mkdocs
+   pip install -r requirements.txt
    ```
 
 3. Navigate to the project directory:
