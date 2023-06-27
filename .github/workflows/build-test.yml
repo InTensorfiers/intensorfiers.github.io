@@ -17,11 +17,11 @@ concurrency:
 
 jobs:
   # Single deploy job since we're just deploying
-  build-test:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -31,9 +31,3 @@ jobs:
       - name: mkdocs build
         run: |
           mkdocs build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          path: './site'
-
