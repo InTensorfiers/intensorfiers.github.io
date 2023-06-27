@@ -1,5 +1,8 @@
 # intensorfiers.github.io
 
+![GitHub Actions badge](https://github.com/intensorfiers/intensorfiers.github.io/actions/workflows/gh-page-deploy.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository contains documentation for setting up environments for Deep Learning servers using Ansible and conda. The documentation is generated using MkDocs and hosted on GitHub Pages.
 
 ## Contents
