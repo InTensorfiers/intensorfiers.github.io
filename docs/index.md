@@ -1,33 +1,27 @@
-# Welcome to InTensorfier's Documentation Page!
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![](images/00096.png)
 
-Made with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+Welcome to the documentation site for **InTensorfier** - the Automated GPU Environment Setup and Benchmarking Project. 
 
-## Test
+Thank you for your interest in this project. We hope this project enhances your machine learning workflow and decision-making processes.
 
-This is a test. 
+This project aims to simplify the process of setting up GPU environments for machine learning workloads and conducting benchmarking to compare performance.
 
+## Motivation
 
-```{python}
-Hello world!
+In the rapidly evolving field of machine learning, efficient utilization of hardware resources is crucial. This project addresses the need for automated GPU environment setup and accurate benchmarking of GPU-accelerated frameworks. By automating these processes, we aim to enhance productivity, reduce manual effort, and enable data-driven decisions when selecting frameworks and hardware.
 
-def main():
-    print("hello world")
-```
+## Project Objectives
 
-![cat image](https://images.unsplash.com/photo-1615796153287-98eacf0abb13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80)
-## Commands
+- **Automated GPU Setup**: We have developed an automated process using Ansible to create consistent and reproducible GPU environments, ensuring reliable configurations.
+  
+- **Benchmarking**: Our project includes benchmarking GPU-accelerated frameworks, such as TensorFlow and XGBoost, to quantify performance improvements gained from GPU utilization.
+  
+- **Documentation**: Comprehensive documentation accompanies this project, guiding users through the setup process, benchmarking procedures, and result interpretation.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Acknowledgement
 
-## Project layout
+This documentation site is made with [MkDocs](https://www.mkdocs.org) and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
+Hosted by [Github Pages](https://pages.github.com/).
