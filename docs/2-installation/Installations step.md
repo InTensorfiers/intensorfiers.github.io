@@ -20,13 +20,13 @@ Linux is an open-source operating system kernel that serves as the foundation fo
 
 Our primary focus will center on the Debian distribution, given its significance, while we will also give due attention to the Ubuntu distribution within the project's scope. Both Ubuntu and Debian stand out as widely recognized Linux distributions in the Data Science world.
 
-Could be 2 different scenaries, when we can setup a GPU drivers for a machine. 
+Could be 2 different scenarios, when we can setup a GPU drivers for a machine. 
 
 ## a. Virtual Machine Setup:
 
 ![google image](https://images.unsplash.com/photo-1511296265581-c2450046447d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80)
 
-For the first scenario, we will conduct our documentation testing on virtual machines. Specifically, we will be utilizing Google Cloud Machines, a powerful cloud-based platform that facilitates the creation of customized instances. This includes tailoring various parameters such as the choice of operating system, regional availability, GPU allocation, and more, based on your precise requirements.
+For the first scenario, we will conduct our documentation testing on virtual machines. Specifically, we will be utilizing Google Cloud Platform, a powerful cloud-based platform that facilitates the creation of customized instances. This includes tailoring various parameters such as the choice of operating system, regional availability, GPU allocation, and more, based on your precise requirements.
 
 By employing virtual machines, we can emulate diverse computing environments and ensure that our documentation is comprehensive and adaptable to a range of configurations. This allows us to verify the effectiveness of our installation instructions across various settings and configurations.
 
