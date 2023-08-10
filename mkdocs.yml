@@ -30,7 +30,14 @@ theme:
 nav:
   - Introduction: 'index.md'
   - 1. Introduction:
-    - Test: "./1-introduction/section-1.md"
+    - Overview: "introduction/overview.md"
+    - Project Architecture: "introduction/project-architecture.md"
+    - Toolchain:
+      - Ansible: "introduction/toolchain/ansible.md"
+      - Conda: "introduction/toolchain/conda.md"
   - 2. Installation:
-    - Overview: "./2-installation/OVERVIEW OF INSTALLATION PROCESS.md"
-    - Steps: "./2-installation/Installations step.md"
+    - Overview: "installation/OVERVIEW OF INSTALLATION PROCESS.md"
+    - Steps: "installation/Installations step.md"
+    - Installing miniconda: "installation/Installing Miniconda.md"
+  - 3. Benchmarks:
+    - Overview: "benchmarks/overview.md"
