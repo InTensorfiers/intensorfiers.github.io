@@ -26,3 +26,11 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: fontawesome/solid/meteor
+
+nav:
+  - Introduction: 'index.md'
+  - 1. Introduction:
+    - Test: "./1-introduction/section-1.md"
+  - 2. Installation:
+    - Overview: "./2-installation/OVERVIEW OF INSTALLATION PROCESS.md"
+    - Steps: "./2-installation/Installations step.md"
