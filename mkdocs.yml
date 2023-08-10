@@ -38,6 +38,6 @@ nav:
   - 2. Installation:
     - Overview: "installation/OVERVIEW OF INSTALLATION PROCESS.md"
     - Steps: "installation/Installations step.md"
-    - Installing miniconda: "installation/Installing Miniconda.md"
+    - Installing Miniconda: "installation/Installing Miniconda.md"
   - 3. Benchmarks:
     - Overview: "benchmarks/overview.md"
