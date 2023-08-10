@@ -10,23 +10,21 @@ Download and install the latest GPU drivers compatible with your GPU model. Visi
 
 ### 3. Create CONDA Environment:
 Utilize package managers like pip  conda to create a controlled environment. This ensures a clean setup for your deep learning project. For this project we are going to use Miniconda. 
-### 3. Install CUDA Toolkit:
+### 4. Install CUDA Toolkit:
 CUDA is essential for GPU acceleration in deep learning frameworks. Install the CUDA Toolkit, encompassing libraries and tools that optimize GPU performance.
-### 4. Install Deep Learning Framework (TensorFlow):
-Select TensorFlow as the deep learning framework for this project. Install it within the previously created conda environment.
-### 6. Install Additional Libraries:
-Install supplementary libraries like NumPy, Pandas, SciPy,Scykit  and Jupyter Notebook. 
-### 7. Verify Installation:
+### 5. Install related  Dependencies:
+In this step, we will focus on setting up the necessary dependencies, with TensorFlow as the chosen deep learning framework for this project.
+
+#### a. Install TensorFlow:
+
+Within the conda environment established earlier, install TensorFlow. This powerful deep learning framework will serve as the cornerstone of our project, enabling advanced neural network computations and model training.
+
+#### b. Install Supplementary Libraries:
+
+In addition to TensorFlow, we will also ensure that your environment is equipped with essential supplementary libraries, enhancing your capability to effectively manipulate and analyze data. Install libraries such as NumPy, Pandas, SciPy, Scikit-learn (Scikit),Jupyter Server and others important like Gensim, NLTK, XGBoost, etc. 
+
+These supplementary libraries will provide you with a rich toolkit to preprocess data, build models, and analyze results effectively within the TensorFlow framework. By installing these dependencies, we ensure a well-rounded environment that empowers you to undertake complex deep learning tasks with confidence and efficiency.
+
+### 6. Verify Installation:
 Validate our setup by running sample models that exercises our GPU and tests the functionality of the TensorFlow installation.
-
-## 1. Install Operating System:
-In this step, we will thoroughly evaluate our documentation within two distinct scenarios:
-
-### a. Virtual Machine Setup:
-
-For the first scenario, we will conduct our documentation testing on virtual machines. Specifically, we will be utilizing Google Cloud Machines, a powerful cloud-based platform that facilitates the creation of customized instances. This includes tailoring various parameters such as the choice of operating system, regional availability, GPU allocation, and more, based on your precise requirements.
-
-By employing virtual machines, we can emulate diverse computing environments and ensure that our documentation is comprehensive and adaptable to a range of configurations. This allows us to verify the effectiveness of our installation instructions across various settings and configurations.
-
-b. 
 
