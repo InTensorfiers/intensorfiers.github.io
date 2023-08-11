@@ -24,6 +24,58 @@ As previously noted, our script validation will be carried out using a Virtual M
 
 Google already provides us with [documentation](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu) to install GPU drivers for the VMs created on Google Cloud. They even provide us with [scripts to automate the installation process](https://github.com/InTensorfiers/compute-gpu-installation), we forked the library in our Github reporsitory of their scripts.
 
+To make the job easier, here is the summary of NVIDIA driver installation process.
+
+1. Ensure Python3 is installed on your operating system
+
+    ```bash
+    python3 --version
+    ```
+
+1. Download the installation script
+
+    ```bash
+    curl https://raw.githubusercontent.com/InTensorfiers/compute-gpu-installation/main/linux/install_gpu_driver.py --output install_gpu_driver.py
+    ```
+
+1. Run the installation script
+
+    ```bash
+    sudo python3 install_gpu_driver.py
+    ```
+    > Note: The script takes some time to run. It might restart your VM. If the VM restarts, run the script again to continue the installation.
+
+1. Verify the installation
+
+    ```bash
+    sudo nvidia-smi
+    ```
+
+The output should be similar to the following:
+
+```bash
+        Tue Mar 21 19:50:15 2023
+    +-----------------------------------------------------------------------------+
+    | NVIDIA-SMI 530.30.02    Driver Version: 530.30.02    CUDA Version: 12.1     |
+    |-------------------------------+----------------------+----------------------+
+    | GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+    | Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+    |                               |                      |               MIG M. |
+    |===============================+======================+======================|
+    |   0  NVIDIA L4           Off  | 00000000:00:03.0 Off |                    0 |
+    | N/A   63C    P0    30W /  75W |      0MiB / 23034MiB |      8%      Default |
+    |                               |                      |                  N/A |
+    +-------------------------------+----------------------+----------------------+
+
+    +-----------------------------------------------------------------------------+
+    | Processes:                                                                  |
+    |  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+    |        ID   ID                                                   Usage      |
+    |=============================================================================|
+    |  No running processes found                                                 |
+    +-----------------------------------------------------------------------------+
+```
+
 Now, let's delve into an explanation of the script's pivotal components:
 
 The script commences by emphasizing its adherence to the Apache License, underscoring its open-source nature. 
