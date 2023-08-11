@@ -22,7 +22,7 @@ Our primary focus will center on the Debian distribution, given its significance
 
 Could be 2 different scenarios, when we can setup a GPU drivers for a machine. 
 
-## a. Virtual Machine Setup:
+## a. Virtual Machine Setup
 
 ![google image](https://images.unsplash.com/photo-1511296265581-c2450046447d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80)
 
@@ -30,7 +30,7 @@ For the first scenario, we will conduct our documentation testing on virtual mac
 
 By employing virtual machines, we can emulate diverse computing environments and ensure that our documentation is comprehensive and adaptable to a range of configurations. This allows us to verify the effectiveness of our installation instructions across various settings and configurations.
 
-## b. Phisical Machine: 
+## b. Phisical Machine 
 Constructing a physical machine server designed specifically for hosting machine learning workloads entails establishing the requisite environment to operate Ubuntu or Debian as the operating system on a Linux-based server.
 
 We will provide a high-level description of the installation steps for Ubuntu. You can also refer to the official webpage for guidance on installing your operating system with Ubuntu: [Basic Installation Ubuntu](https://ubuntu.com/server/docs/installation)
