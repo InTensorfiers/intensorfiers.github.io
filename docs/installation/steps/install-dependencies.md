@@ -31,7 +31,3 @@ Incorporating not only TensorFlow and cuDNN but also vital supplementary librari
 By integrating these supplementary libraries, you gain access to a comprehensive toolkit designed to preprocess data, construct robust models, and conduct meticulous result analyses—all seamlessly intertwined within the TensorFlow framework. This integration of dependencies results in a well-rounded environment that empowers you to confidently and efficiently tackle intricate deep learning tasks, driving innovation and achieving remarkable results.
 
 <script src="https://gist.github.com/maryalexa91/1b6ae29175bac230f25600ff817500ba.js"></script>
-
-
-
-

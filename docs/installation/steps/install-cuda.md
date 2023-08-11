@@ -31,4 +31,3 @@ CUDA can accelerate data analytics tasks, such as database queries and data tran
 ## Code:
 
 <script src="https://gist.github.com/maryalexa91/edb6b2ab369945c6db1c6ce233f8dab8.js"></script>
-
