@@ -1,5 +1,7 @@
 # Conda
 
+![conda logo](../../images/conda_logo.svg)
+
 ## What is Conda?
 Conda is an open-source package and environment management system.It allows you to create isolated environments containing specific packages and dependencies, making it easier to manage software for different projects.
 
