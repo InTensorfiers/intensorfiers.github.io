@@ -26,3 +26,18 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: fontawesome/solid/meteor
+
+nav:
+  - Introduction: 'index.md'
+  - 1. Introduction:
+    - Overview: "introduction/overview.md"
+    - Project Architecture: "introduction/project-architecture.md"
+    - Toolchain:
+      - Ansible: "introduction/toolchain/ansible.md"
+      - Conda: "introduction/toolchain/conda.md"
+  - 2. Installation:
+    - Overview: "installation/OVERVIEW OF INSTALLATION PROCESS.md"
+    - Steps: "installation/Installations step.md"
+    - Installing Miniconda: "installation/Installing Miniconda.md"
+  - 3. Benchmarks:
+    - Overview: "benchmarks/overview.md"
