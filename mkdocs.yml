@@ -36,8 +36,11 @@ nav:
       - Ansible: "introduction/toolchain/ansible.md"
       - Conda: "introduction/toolchain/conda.md"
   - 2. Installation:
-    - Overview: "installation/OVERVIEW OF INSTALLATION PROCESS.md"
-    - Steps: "installation/Installations step.md"
-    - Installing Miniconda: "installation/Installing Miniconda.md"
+    - Overview: "installation/installation-process-overview.md"
+    - Steps:
+      - Install Operating System(OS): "installation/steps/install-os.md"
+      - Install GPU drivers: "installation/steps/install-gpu.drivers.md"
+      - Installing Miniconda: "installation/steps/Installing Miniconda.md"
   - 3. Benchmarks:
     - Overview: "benchmarks/overview.md"
+  
