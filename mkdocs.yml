@@ -37,7 +37,10 @@ nav:
       - Conda: "introduction/toolchain/conda.md"
   - 2. Installation:
     - Overview: "installation/OVERVIEW OF INSTALLATION PROCESS.md"
-    - Steps: "installation/Installations step.md"
-    - Installing Miniconda: "installation/Installing Miniconda.md"
+    - Steps:
+      - Install Operating System(OS): "installation/Installations step.md"
+      - Install GPU drivers: "installation/Step 2.Install GPU drivers.md"
+      - Installing Miniconda: "installation/Installing Miniconda.md"
   - 3. Benchmarks:
     - Overview: "benchmarks/overview.md"
+  
