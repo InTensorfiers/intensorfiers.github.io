@@ -30,4 +30,6 @@ Incorporating not only TensorFlow and cuDNN but also vital supplementary librari
 
 By integrating these supplementary libraries, you gain access to a comprehensive toolkit designed to preprocess data, construct robust models, and conduct meticulous result analyses—all seamlessly intertwined within the TensorFlow framework. This integration of dependencies results in a well-rounded environment that empowers you to confidently and efficiently tackle intricate deep learning tasks, driving innovation and achieving remarkable results.
 
+Lastly, we have opted to use the pip repository instead of conda for installing the related dependencies for a couple of reasons. First, pip generally offers faster installation, which is important given the intensive nature of our project. Second, pip often provides more current and specialized libraries, particularly in areas like machine learning and deep learning. This choice ensures efficient installations and access to the latest tools, aligning perfectly with our project's performance and innovation goals.
+
 <script src="https://gist.github.com/maryalexa91/1b6ae29175bac230f25600ff817500ba.js"></script>

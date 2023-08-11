@@ -6,27 +6,11 @@
 
 CUDA, which stands for Compute Unified Device Architecture, is a parallel computing platform and Application Programming Interface (API) developed by NVIDIA. CUDA enables developers to harness the immense computational power of NVIDIA GPUs (Graphics Processing Units) for a wide range of general-purpose computing tasks, including deep learning, scientific simulations, image processing, and more.
 
-## Why is CUDA important?
+## Why do we need to use CUDA?
 
-The importance of CUDA lies in its ability to accelerate computations by utilizing the parallel processing capabilities of GPUs. Here's why CUDA is significant:
+By installing CUDA, we enable our software to communicate directly with the GPU, offloading complex calculations and data manipulations to the highly parallel architecture of the GPU cores. This results in significantly faster execution times for our computations, ultimately accelerating our project's progress.
 
-### a. Massive Parallelism: 
-Modern GPUs consist of thousands of smaller processing cores that can perform calculations simultaneously. CUDA allows developers to harness this parallelism to perform tasks much faster than traditional CPUs.
-
-### b. Performance Boost: 
-CUDA-accelerated computations can provide significant speedup compared to CPU-based computations. This is particularly valuable for tasks involving complex mathematical calculations or large datasets.
-
-### c. Modeling and Research Computing: 
-CUDA is extensively used in scientific simulations, modeling, and research, where it accelerates complex calculations, making it possible to tackle problems that were previously computationally infeasible.
-
-### d. Deep Learning: 
-The field of deep learning heavily relies on large-scale matrix multiplications and tensor operations. CUDA accelerates these operations, resulting in much faster training and inference times for deep neural networks.
-
-### e. Image and Signal Processing: 
-CUDA is utilized in various image and signal processing applications, such as image recognition, medical imaging, and video analysis, where real-time processing and analysis are crucial.
-
-### f. Data Analytics: 
-CUDA can accelerate data analytics tasks, such as database queries and data transformation, by leveraging the parallel processing capabilities of GPUs.
+CUDA is not only crucial for our project's performance but also for compatibility with various libraries and frameworks optimized for GPU acceleration. Many popular libraries used for machine learning, scientific computing, and data analysis, such as TensorFlow, PyTorch, and cuDNN, are built to work seamlessly with CUDA, enhancing their performance when executed on GPUs.
 
 ## Code:
 
