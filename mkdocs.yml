@@ -42,7 +42,7 @@ nav:
       - Install GPU drivers: "installation/steps/install-gpu.drivers.md"
       - Installing Miniconda: "installation/steps/Installing Miniconda.md"
       - Installing CUDA: "installation/steps/install-cuda.md"
-      - Installing dependencies: "installation/steps/install-dependencies.md"
+      - Installing Dependencies: "installation/steps/install-dependencies.md"
   - 3. Benchmarks:
     - Overview: "benchmarks/overview.md"
   
