@@ -45,4 +45,5 @@ nav:
       - Installing Dependencies: "installation/steps/install-dependencies.md"
   - 3. Benchmarks:
     - Overview: "benchmarks/overview.md"
-  
+extra_css:
+  - stylesheets/extra.css
