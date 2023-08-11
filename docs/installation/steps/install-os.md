@@ -1,4 +1,4 @@
-# 1. INSTALL OPERATING SYSTEM
+# 1. Install Operating System
 
 ## What is Operating System?
 
