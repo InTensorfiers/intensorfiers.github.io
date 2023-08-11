@@ -1,6 +1,6 @@
 # Welcome
 
-![](images/00096.png)
+![Project Image](images/00096.png)
 
 Welcome to the documentation site for **InTensorfier** - the Automated GPU Environment Setup and Benchmarking Project. 
 
