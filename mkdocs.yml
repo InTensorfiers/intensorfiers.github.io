@@ -38,11 +38,12 @@ nav:
   - 2. Installation:
     - Overview: "installation/installation-process-overview.md"
     - Steps:
-      - Install Operating System(OS): "installation/steps/install-os.md"
-      - Install GPU drivers: "installation/steps/install-gpu.drivers.md"
-      - Installing Miniconda: "installation/steps/Installing Miniconda.md"
-      - Installing CUDA: "installation/steps/install-cuda.md"
-      - Installing Dependencies: "installation/steps/install-dependencies.md"
+      - Operating System(OS): "installation/steps/install-os.md"
+      - GPU drivers: "installation/steps/install-gpu.drivers.md"
+      - Miniconda: "installation/steps/Installing Miniconda.md"
+      - CUDA: "installation/steps/install-cuda.md"
+      - Dependencies: "installation/steps/install-dependencies.md"
+    - Ansible Playbook: "installation/Playbook.md"
   - 3. Benchmarks:
     - Overview: "benchmarks/overview.md"
 extra_css:
