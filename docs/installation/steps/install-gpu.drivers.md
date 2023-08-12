@@ -28,32 +28,32 @@ To make the job easier, here is the summary of NVIDIA driver installation proces
 
 1. Ensure Python3 is installed on your operating system
 
-    ```bash
+    ```
     python3 --version
     ```
 
 1. Download the installation script
 
-    ```bash
+    ```
     curl https://raw.githubusercontent.com/InTensorfiers/compute-gpu-installation/main/linux/install_gpu_driver.py --output install_gpu_driver.py
     ```
 
 1. Run the installation script
 
-    ```bash
+    ```
     sudo python3 install_gpu_driver.py
     ```
     > Note: The script takes some time to run. It might restart your VM. If the VM restarts, run the script again to continue the installation.
 
 1. Verify the installation
 
-    ```bash
+    ```
     sudo nvidia-smi
     ```
 
 The output should be similar to the following:
 
-```bash
+```
         Tue Mar 21 19:50:15 2023
     +-----------------------------------------------------------------------------+
     | NVIDIA-SMI 530.30.02    Driver Version: 530.30.02    CUDA Version: 12.1     |
