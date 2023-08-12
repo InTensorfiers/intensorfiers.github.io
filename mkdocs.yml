@@ -47,5 +47,7 @@ nav:
     - Automated Installation via Ansible: "installation/automated-deployment.md"
   - Benchmarks:
     - Overview: "benchmarks/overview.md"
+    - Tensorflow: "benchmarks/tensorflow.md"
+    - XGBoost: "benchmarks/xgboost.md"
 extra_css:
   - stylesheets/extra.css

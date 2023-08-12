@@ -48,7 +48,7 @@ To make the job easier, here is the summary of NVIDIA driver installation proces
 1. Verify the installation
 
     ```bash
-    sudo nvidia-smi
+   sudo nvidia-smi
     ```
 
 The output should be similar to the following:

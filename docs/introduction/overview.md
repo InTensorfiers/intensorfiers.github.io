@@ -16,14 +16,8 @@ Create an environment that's easy to manage and maintain. By using Conda, we est
 ### 3. Benchmarking GPU Accelerated Frameworks
 Perform benchmarking on GPU-accelerated frameworks like TensorFlow and XGBoost. Compare execution time and resource utilization with and without GPU acceleration.
 
-### 4. Resource Efficiency
-Evaluate the efficiency of GPU acceleration in terms of time and resource consumption. This provides insights into the cost-effectiveness of utilizing GPU hardware.
-
-### 5. Performance Comparison
-Generate quantitative data on performance improvements gained from GPU acceleration. This aids decision-making in choosing appropriate frameworks and hardware for specific tasks.
-
-### 6. Documentation
+### 4. Documentation
 Develop comprehensive documentation detailing the automated setup process, benchmarking methodologies, and results interpretation. This ensures transparency and facilitates future improvements.
 
-### 7. Scalability
+### 5. Scalability
 Design the project to be scalable, allowing it to handle various workloads and adapt to evolving hardware and software environments.

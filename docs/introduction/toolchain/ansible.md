@@ -1,10 +1,9 @@
 # Ansible
-<p align="center">
-<img style="margin: auto;" src="https://static-00.iconduck.com/assets.00/ansible-icon-2048x2048-mc4z634w.png" width="50%"/>
+<p style="margin: auto;">
+<img style="margin: auto;" src="https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2017/10/ansible_logo.png" width="100%"/>
 </p>
 
 ## What is Ansible?
-Ansible is an open-source automation tool that enables consistent and repeatable management of IT infrastructure through code. It uses declarative YAML files to define configurations, making it easy to automate various tasks.
 Ansible is an open source, command-line IT automation software application written in Python. It can configure systems, deploy software, and orchestrate advanced workflows to support application deployment, system updates, and more.
 
 ## Why Ansible?
@@ -33,5 +32,11 @@ Ansible finds use in provisioning, configuration management, application deploym
 In our machine learning project, Ansible serves to automate the setup of machines for ML workloads. Playbooks can install necessary dependencies, configure GPU drivers, set up virtual environments, and ensure consistent environment states. This accelerates the process of preparing machines for ML tasks and reduces configuration drift.
 
 - Provide a way to automate the tedious installation steps
-- Provide a configuration option for users to customize the environment according to their needs
+- Pro
+- Reduce human error 
+- Provide idempotent deployment as Ansible can detect if a certain component is already installed and thus skip it 
+- Provide a configuration option for users to customize the environment according to their needs:
+  - Python version
+  - CUDA toolkit version
+  - Dependencies to be install
 
