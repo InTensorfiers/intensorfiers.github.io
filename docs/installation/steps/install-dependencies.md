@@ -26,7 +26,7 @@ Having grasped the importance of TensorFlow and cuDNN, we can now proceed to exp
 
 ## 2. Install Supplementary Libraries:
 
-Incorporating not only TensorFlow and cuDNN but also vital supplementary libraries, you can furnish your environment with the essential tools for seamless data manipulation and analysis. These include indispensable installations such as NumPy, Pandas, SciPy, Scikit-learn (Scikit), PyTorch, Gensim, NLTK, XGBoost, and Keras. Moreover, we'll deploy Jupyter Server— a web application that provides a central interface for managing Jupyter Notebooks and their kernels is ideal for centralized management and collaboration on team-based data science and machine learning large-scale projects.
+Incorporating not only TensorFlow and cuDNN but also vital supplementary libraries, you can furnish your environment with the essential tools for seamless data manipulation and analysis. These include indispensable installations such as NumPy, Pandas, Seaborn, SciPy, Scikit-learn (Scikit), PyTorch, Gensim, NLTK, and XGBoost. Moreover, we'll deploy Jupyter Server— a web application that provides a central interface for managing Jupyter Notebooks and their kernels is ideal for centralized management and collaboration on team-based data science and machine learning large-scale projects.
 
 By integrating these supplementary libraries, you gain access to a comprehensive toolkit designed to preprocess data, construct robust models, and conduct meticulous result analyses—all seamlessly intertwined within the TensorFlow framework. This integration of dependencies results in a well-rounded environment that empowers you to confidently and efficiently tackle intricate deep learning tasks, driving innovation and achieving remarkable results.
 
