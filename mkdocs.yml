@@ -28,14 +28,15 @@ theme:
     logo: fontawesome/solid/meteor
 
 nav:
-  - Introduction: 'index.md'
-  - 1. Introduction:
+  - Welcome: 'index.md'
+  - Introduction:
     - Overview: "introduction/overview.md"
     - Project Architecture: "introduction/project-architecture.md"
+    - Repo Struture: "introduction/repo-structure.md"
     - Toolchain:
       - Ansible: "introduction/toolchain/ansible.md"
       - Conda: "introduction/toolchain/conda.md"
-  - 2. Installation:
+  - Installation:
     - Overview: "installation/installation-process-overview.md"
     - Steps:
       - Operating System(OS): "installation/steps/install-os.md"
@@ -43,8 +44,10 @@ nav:
       - Miniconda: "installation/steps/Installing Miniconda.md"
       - CUDA: "installation/steps/install-cuda.md"
       - Dependencies: "installation/steps/install-dependencies.md"
-    - Ansible Playbook: "installation/Playbook.md"
-  - 3. Benchmarks:
+    - Automated Installation via Ansible: "installation/automated-deployment.md"
+  - Benchmarks:
     - Overview: "benchmarks/overview.md"
+    - Tensorflow: "benchmarks/tensorflow.md"
+    - XGBoost: "benchmarks/xgboost.md"
 extra_css:
   - stylesheets/extra.css
